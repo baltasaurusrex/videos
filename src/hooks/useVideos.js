@@ -19,6 +19,8 @@ const useVideos = (defaultSearchTerm) => {
             }
         });   
 
+        console.log("raw res doc: ", res);
+        
         setVideos(res.data.items);
     };
 
